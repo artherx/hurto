@@ -6,27 +6,51 @@
     android:layout_height="match_parent"
     android:background="@color/cardview_dark_background"
     tools:context=".HomeActivity">
-    <View
-        android:id="@+id/header"
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/linearLayoutHeder"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:background="@color/black"
-
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textPer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tu nombre"
-        android:textSize="20dp"
         android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayoutHeder"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayoutHeder"
+        app:layout_constraintTop_toTopOf="@+id/linearLayoutHeder" />
+
+
+        />
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="632dp"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayoutfotter"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/header"
-        app:layout_constraintBottom_toBottomOf="@+id/header"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutHeder" />
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/LinearLayoutfotter"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    
+
+    
+
+    
 
 
 

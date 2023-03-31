@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">hurto</string>
+    <string name="jardinerito">Jardinerito</string>
+    <string name="registrar">Registrar</string>
 </resources>
