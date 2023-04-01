@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1028888050198",
+    "project_id": "huerto-ad6d7",
+    "storage_bucket": "huerto-ad6d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028888050198:android:635a140fe43ee4a91e5337",
+        "android_client_info": {
+          "package_name": "com.example.huerto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028888050198-0e3moh01737h7outv86eaf2ue6ljt549.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAwnk6YVrI2RrvFe2Y1cvaeM8E8NWPJkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028888050198-0e3moh01737h7outv86eaf2ue6ljt549.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028888050198:android:b4a8e4be25cd63191e5337",
+        "android_client_info": {
+          "package_name": "com.example.hurto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028888050198-0e3moh01737h7outv86eaf2ue6ljt549.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAwnk6YVrI2RrvFe2Y1cvaeM8E8NWPJkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028888050198-0e3moh01737h7outv86eaf2ue6ljt549.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
