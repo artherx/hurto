@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Hurto"
         tools:targetApi="31">
         <activity
+            android:name=".RegisActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity

@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#424242"
-    tools:context=".MainActivity">
-
+    android:background="@color/cardview_dark_background"
+    tools:context=".RegisActivity">
 
     <TextView
         android:id="@+id/jardi"
@@ -41,6 +40,19 @@
         android:ems="6"
         android:paddingHorizontal="5dp"
         android:background="@drawable/border"
+        app:layout_constraintBottom_toTopOf="@+id/passwordplus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/passwordplus"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:inputType="textPassword"
+        android:ems="6"
+        android:paddingHorizontal="5dp"
+        android:background="@drawable/border"
         app:layout_constraintBottom_toTopOf="@+id/btnRegis"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
@@ -51,17 +63,18 @@
         android:layout_height="wrap_content"
         android:background="@drawable/rounded_corner"
         android:paddingHorizontal="25dp"
-        android:text="@string/iniciar_secion"
+        android:text="@string/registrar"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/jardi" />
+
     <TextView
         android:id="@+id/txtright"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="¿No tienes cuenta?"
+        android:text="¿Ya tienes cuenta?"
         android:layout_marginRight="70dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,11 +84,14 @@
         android:id="@+id/passSingh"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Registrarce"
+        android:text="Inicia sesion"
         android:layout_marginLeft="10dp"
         android:textColor="@color/fui_bgFacebook"
         app:layout_constraintStart_toEndOf="@+id/txtright"
         app:layout_constraintBottom_toBottomOf="@+id/txtright"/>
+
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
