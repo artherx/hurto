@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity() {
                     signIn(name,pass)
                     val intent = Intent(this,HomeActivity::class.java)
                     intent.putExtra("Extra name",name)
+                    Toast.makeText(this, "Inicio secion $name",Toast.LENGTH_SHORT).show()
                     startActivity(intent)
                 }
             }
@@ -54,6 +55,7 @@ class MainActivity : AppCompatActivity() {
             .addOnCompleteListener(this) {task->
                 if (task.isSuccessful){
                     val user = auth.currentUser
+
                     Toast.makeText(baseContext,"signInWithEmail:success", Toast.LENGTH_SHORT).show()
                 }
                 else{
